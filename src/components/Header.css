@@ -1,0 +1,135 @@
+.header-container{
+    width: 100%; /* Make the header span the full width */
+    max-width: 1200px; /* Set a maximum width to make it non-responsive */
+    margin: 0 auto; /* Center the header */
+    background-color: #282c34;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+  
+}
+/* This class applies a 3px solid green border and 5px padding to elements */
+.myrows {
+    border: 3px solid green;
+    padding: 5px;
+}
+
+/* This class applies a 3px solid red border to elements */
+.mycols {
+    border: 3px solid red;
+    text-align: right;
+}
+
+/* This class applies an aqua background color to elements */
+.mycontainer {
+    background-color: blue;
+}
+
+/* This ID applies a bottom border of 1px solid silver to the element with id="topHeader" */
+#topHeader {
+    border-bottom: 1px solid green;
+    background-color: #3498db;
+}
+
+/* This targets all anchor (<a>) tags within the element with id="topHeader" */
+#topHeader a {
+    color: #2c3e50;        /* Text color */
+    font-weight: 600;      /* Bold text */
+    font-size: 0.89rem;    /* Font size */
+}
+
+/* This targets elements with the class "container-fluid" */
+.container-fluid {
+    padding-left: 0;       /* Removes left padding */
+    padding-right: 0;      /* Removes right padding */
+}
+/* This targets anchor (<a>) tags within list items (<li>) inside unordered lists (<ul>) within a <nav> element */
+nav ul li a {
+    font-size: 1.1em;      /* Font size */
+    font-weight: 600;      /* Bold text */
+}
+
+
+.top-hero-section{
+    background-color: #3498db;
+    color: white;
+}
+.top-hero-section a{
+    color: white;
+    font-weight: 600;
+}
+.qualities-img{
+    width: 350px;
+}
+.requirements-section{
+    color: white;
+    background-color: #004d80;
+}
+.home-newsletter{
+    color : white;
+    background-color: #004d80;
+
+}
+.home-newsletter .form-control{
+    height:50px;
+    border-color: transparent;
+    border-radius: 20px 0 0 20px;
+}
+.home-newsletter .btn{
+    min-height: 50px;
+    border-radius: 0 20px 20px 0;
+    background: #243c4f;
+    color: #fff;
+}
+.clients-section{
+    background-color: silver;
+    
+}
+.breadcrumbs-section {
+    background-color: #f8f9fa;
+    padding: 1rem 0;
+  }
+  
+  .breadcrumbs-section h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .breadcrumb-section {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .breadcrumb-item {
+    margin-right: 0.5rem;
+  }
+  
+  .breadcrumb-item a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .breadcrumb-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .breadcrumb-item.active {
+    color: #6c757d;
+  }
+  .address p{
+    font-weight: 600;
+  }
+  .bar{
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-radius: 20px;
+    border: 1px solid slategrey;
+  }
+  .myslideheader{
+    color: red;
+    
+
+  }
+  

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar Example</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div id="bottomHeader">
+    <div className="container-fluid">
+      <nav className="navbar navbar-dark navbar-expand-md" style="background-color: #004d80;">
+        <a href="" className="navbar-brand">
+          <img src="imgs/mehran-fotor-20240711162226.png" width="250px" alt="Brand Logo">
+        </a>
+        <button data-toggle="collapse" data-target="#navbarToggler" type="button" className="navbar-toggler">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarToggler">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <a href="#" className="nav-link">Home</a>
+            </li>
+            <li className="nav-item dropdown">
+              <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown" role="button">Services</a>
+              <div className="dropdown-menu">
+                <a href="" className="dropdown-item">Web Designing</a>
+                <a href="" className="dropdown-item">Web Development</a>
+                <a href="" className="dropdown-item">SEO Services</a>
+                <a href="" className="dropdown-item">Software Development</a>
+                <a href="" className="dropdown-item">Mobile App Development</a>
+                <div className="dropdown-divider"></div>
+                <a href="" className="dropdown-item">Graphic Designing</a>
+              </div>
+            </li>
+            <li className="nav-item">
+              <a href="#" className="nav-link">Portfolio</a>
+            </li>
+            <li className="nav-item">
+              <a href="#" className="nav-link">About Us</a>
+            </li>
+            <li className="nav-item">
+              <a href="#" className="nav-link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <!-- jQuery, Popper.js, and Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
